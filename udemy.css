@@ -1,0 +1,521 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.toppanel {
+    background-color: white;
+    height: 72px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+.logo {
+    
+    background-image: url(udemy/udemylogo.png);
+    background-size: 100% 100%;
+    justify-content: center;
+    width: 94px;
+    height: 34px;
+    margin-top: 10px;
+    margin-left: 5px;
+    
+    
+    
+}
+
+.learn {
+    display: inline;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+.learn a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    margin-top: 10px;
+    
+}
+
+.profile {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.search {
+     display: flex;
+    justify-content:right ;
+    background-color: white;
+    width: 50%; 
+    height: 50px;
+    
+    
+    /* display: flex;
+  justify-content: space-evenly;
+  background-color: pink;
+  width: 620px;
+  height: 40px;
+  border-radius: 4px; */
+   
+}
+
+.search-input {
+    /* text-align: center; */
+    font-size: 16px;
+    width: 100%;
+    
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    
+}
+
+.cart i{
+    font-size: 2rem;
+}
+
+.heart {
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+.box { 
+    display: flex;
+    color: #2d2f31;
+}
+
+.bell {
+    margin-top: 11px;
+    font-size: 30px;
+}
+
+/* box2 */
+
+.top2pannel{
+    display: flex;
+    height: 48px;
+    background: white;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+    
+    
+}
+
+ 
+
+ a {
+    justify-content: space-evenly;
+    font: 14px;
+    text-decoration: none;
+    color: #2d2f31;
+    margin-left: 15px;
+}
+
+.box a {
+    color: #2d2f31;
+}
+
+.hero {
+    
+    background-image: url(udemy/hero.jpeg);
+    height: 370px;
+    width: 93%;
+    position: relative;
+    left: 50px;
+    right: 50px;
+    justify-content: center;
+}
+
+.overlap {
+    
+    width: 400px;
+    height: 196px;
+    background-color: white;
+    color: #2d2f31;
+    padding: 24px 24px 24px 24px;
+    position: relative;
+    top: 60px;
+    left: 60px;
+}
+
+.flashSale {
+    
+    font-weight: 700;
+    font-size: 32px;
+    align-items: center;
+   
+
+}
+
+.courses {
+    font-size: 16px;
+    color: #2d2f31;
+}
+
+
+.panel1first {
+    margin-top: 20px;
+    margin-left: 75px;
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+
+.mylearning h2 a {
+    position: absolute;
+    right: 80px;
+    font-size: 16px;
+    color: blue;
+    text-decoration: underline;
+}
+
+.article {
+    margin-top: 20px;
+    margin-left: 50px;
+    background-color: white;
+    width: 93%;
+    display: flex;
+    height: 170px;
+    
+    justify-content: space-between;
+    /* position: absolute; */
+
+}
+
+.article1 {
+    border: 0.5px solid grey;
+    width: 32%;
+    display: flex;
+    
+
+}
+/* .article2 {
+    border: 2px solid black;
+    width: 32%;
+    
+
+}
+
+.article3 {
+    border: 2px solid black;
+    width: 32%;
+} */
+
+.articlephoto1 {
+    
+    background-image: url(udemy/article1.jpeg);
+    height: 166px;
+    width: 30%;
+    
+}
+.articlephoto2 {
+    
+    background-image: url(udemy/article2.jpeg);
+    height: 166px;
+    width: 30%;
+    
+}
+.articlephoto3 {
+    
+    background-image: url(udemy/article3.jpeg);
+    height: 166px;
+    width: 30%;
+    
+}
+
+ .text {
+    
+      margin-left: 15px; 
+    width: 100%;
+    width: 70%;
+    color: grey;
+    
+    
+    font-size: 0.9rem;
+}
+
+.text2 {
+    margin-left: 0px;
+    margin-top: 8px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: black;
+}
+
+
+.text3 {
+    margin-left: 0px;
+    margin-top: 64px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-weight: 700;
+}
+
+/* .textt {
+     margin-top: 70px;
+} */
+
+
+.learnnext {
+    justify-content: center;
+    height: 100px;
+    
+    
+    padding:48px 24px 48px 75px;
+}
+
+.learnnext h2 {
+   
+   /* margin-top: 20px; */
+   margin-bottom: 30px;
+   
+}
+
+.toppick {
+    display: flex;
+    
+    height: 325px;
+    border: 1px solid grey;
+    width: 89%;
+    
+    
+    
+}
+.pythonimage {
+   
+    height: 325px;
+    width: 50%;
+}
+.image {
+    background-image: url(udemy/python.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 10px 0px 10px 10px;
+    height: 300px;
+    width: 95%;
+    
+}
+
+.pickpick {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.complete {
+    justify-content: left;
+    width: 50%;
+    margin-top: 10px;
+    
+    /* margin: 10px 10px 22px 5px */
+    
+}
+
+.codedays {
+    color: #2d2f31;
+    font-size: 25px;
+    color: #2d2f31;
+    font-weight: 700;
+    margin-bottom: 4px;
+    
+}
+
+.description {
+    color: #2d2f31;
+    font-size: 19px;
+    margin-bottom: 4px;
+}
+
+span {
+    
+    text-decoration: line-through;
+}
+
+.price {
+    margin-top: 80px;
+}
+
+.by {
+    font: 15px;
+    padding-top: 10px;
+}
+
+.recommendation {
+    margin: 50px 0px 20px;
+    padding-left: 75px;
+}
+
+.boxcourses {
+    
+    height: 700px;
+    
+    margin: 50px;
+}
+
+.separatecourse {
+    
+    height: 300px;
+    width: 19%;
+    border: 0.9px solid grey;
+    margin-left: 10px;
+}
+
+.firstline{
+    padding: 20px 0px 0px 25px;
+    display: flex;
+}
+
+
+.secondline {
+    margin: 20px 0px 0px 25px;
+    display: flex;
+}
+
+.photo {
+    
+    height: 50%;
+}
+
+.describe {
+   
+    height: 50%;
+}
+
+.photo1 {
+    background-image: url(udemy/angular.png);
+}
+.photo2 {
+    background-image: url(udemy/english.jpeg);
+}
+.photo3 {
+    background-image: url(udemy/fullstack.jpeg);
+}
+.photo4 {
+    background-image: url(udemy/graphic\ designing.webp);
+}
+.photo5 {
+    background-image: url(udemy/java.jpeg);
+}
+.photo6 {
+    background-image: url(udemy/socialmedia.jpeg);
+}
+.photo7 {
+    background-image: url(udemy/u-removebg-preview.png);
+}
+.photo8 {
+    background-image: url(udemy/photo10.jpeg);
+}
+.photo9 {
+    background-image: url(udemy/photo8.jpeg);
+}
+.photo10 {
+    background-image: url(udemy/photo9.jpeg);
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.869);
+    height: 400px;
+    width: 100%;
+}
+
+.items {
+    height: 300px;
+    
+    color: white;
+    
+    display: flex;
+    list-style-type: none;
+    
+}
+
+.item {
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 1rem;
+    list-style-type: none;
+    
+    padding-left: 30px;
+    
+    
+}
+
+ a {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    
+  
+   
+}
+
+ul {
+    list-style-type: none;
+    
+}
+
+li {
+    padding-top: 20px;
+    margin-left: 20px;
+    
+}
+
+.company {
+    padding-top: 10px;
+    color: white;
+    font-size: 1.4rem;
+    margin-left: 105px;
+}
+
+.last {
+    display: flex;
+    height: 40px;
+    width: 100%;
+
+}
+
+
+.lastlogo {
+    
+    
+        background-image: url(udemy/udemylogo1.svg);
+        background-size: 100% 100%;
+        justify-content: center;
+        width: 100px;
+        height: 40px;
+        
+        margin-left: 105px;  
+        
+       
+        
+    }
+
+    
+
+    .copyright{
+        display: flex;
+        color: white;
+        width: 100%;
+        justify-content: right;
+        margin-top: 10px;
+        padding-right: 50px;
+        font-size: 0.8rem;
+        
+    }
